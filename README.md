@@ -1,3 +1,4 @@
+# Termux Securize
 
 A secure login system for **Termux** that protects access using encrypted credentials, login tracking, and emergency bypass support. Designed with security and flexibility in mind.
 
