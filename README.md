@@ -126,6 +126,9 @@ Follow the prompt to set a new username and password. Your password will be hash
 
 If you forget your credentials, enter your **emergency username** (hashed internally) to unlock access.
 
+Refer to [Emergency Bypass](https://github.com/VizXtreme/Termux-Securize/Emergency-Bypass-Setup.md) to set it up.
+
+
 ### Credential Format
 
 `creds.txt` contains:
