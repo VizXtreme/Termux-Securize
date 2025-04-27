@@ -19,8 +19,8 @@ echo -e "${RESET}"
 LOGIN_LOG="$HOME/.termux-login/login.log"
 CRED_FILE="$HOME/.termux-login/creds.txt"
 
-# Secret Bypass Hash 
-SECRET_USER_HASH="Enter your hash here"
+# Secret Bypass Hash (replace with your own)
+SECRET_USER_HASH="225b65f0d77ec3dc7e51ba0fb5c32b4b4247792b3132910538713132b2d4a3b7"
 
 # Prompt for Username
 read -p "Enter User ID: " input_user
