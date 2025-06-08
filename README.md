@@ -82,7 +82,7 @@ git clone https://github.com/VizXtreme/termux-securize && cd termux-securize
 ### 2. Install Dependencies
 
 ```bash
-pkg update && pkg install openssl figlet -y
+pkg update && pkg install openssl openssl-tool figlet -y
 ```
 
 ### 3. Create Required Directory
@@ -95,7 +95,7 @@ mkdir -p ~/.termux-login
 
 ```bash
 cp login.sh change-creds.sh ~/.termux-login/
-chmod +x ~/.termux-login/*.sh
+chmod +x ~/.termux-login/*.sh && cd
 ```
 
 ### 5. Add Auto-login Hook
@@ -117,7 +117,7 @@ Append this line at the top of `~/.bashrc`:
 Run the credential changer script:
 
 ```bash
-bash ~/.termux-login/change-creds.sh
+bash ~/.termux-login/setup-creds.sh
 ```
 
 Follow the prompt to set a new username and password. Your password will be hashed using **SHA-256** and stored securely in `~/.termux-login/creds.txt`.
