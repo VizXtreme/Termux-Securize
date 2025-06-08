@@ -94,7 +94,7 @@ mkdir -p ~/.termux-login
 ### 4. Copy Scripts
 
 ```bash
-cp login.sh change-creds.sh ~/.termux-login/
+cp login.sh change-creds.sh setup-creds.sh ~/.termux-login/
 chmod +x ~/.termux-login/*.sh && cd
 ```
 
