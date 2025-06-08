@@ -104,6 +104,8 @@ Append this line at the top of `~/.bashrc`:
 
 ```bash
 [ -f "$HOME/.termux-login/login.sh" ] && bash "$HOME/.termux-login/login.sh"
+clear
+bash motd.sh
 ```
 
 > **Note**: Restart Termux or run `source ~/.bashrc` to test.
