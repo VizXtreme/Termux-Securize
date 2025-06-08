@@ -35,9 +35,9 @@ This system allows you to regain access to Termux if you forget your username or
 
 3. **Copy the generated hash.**
 
-4. **Edit your `login.sh` file.**
+4. **Edit your `login.sh` file** in ~/.termux-login/
 
-   Find the line that looks like this:
+   In line no. 23:
 
    ```bash
    SECRET_USER_HASH="your_encrypted_secret_hash_here"
