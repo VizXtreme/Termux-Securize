@@ -161,4 +161,4 @@ Feel free to contribute or suggest improvements via [issues](https://github.com/
 
 ## License
 
-MIT License
+[MIT License](https://github.com/VizXtreme/Termux-Securize/blob/main/LICENSE)
